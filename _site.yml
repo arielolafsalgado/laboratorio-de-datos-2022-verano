@@ -1,6 +1,6 @@
-name: "MyLabJournal"
+name: "Laboratorio de datos"
 navbar:
-  title: "MyLabJournal"
+  title: "Laboratorio de datos 2020 - 2do cuat"
   left:
     - text: "Home"
       href: index.html
