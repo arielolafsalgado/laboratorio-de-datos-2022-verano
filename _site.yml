@@ -1,11 +1,9 @@
-name: "Laboratorio de datos"
+name: "Laboratorio de datos 2021 - 2do cuat"
 navbar:
-  title: "Laboratorio de datos 2020 - 2do cuat"
+  title: "Laboratorio de datos"
   left:
     - text: "Home"
       href: index.html
-    - text: "Journal"
-      href: Journal.html
-    - text: "Links"
+    - text: "Programa"
       href: Links.html
 output_dir: "docs"
