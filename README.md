@@ -16,7 +16,7 @@ Martes y Jueves de 9 a 12 a partir del 17 de Agosto.
 - Guillermo Solovey
 - Martín Elías Costa
 - Ariel Salgado
-
+- Matías Iglesias
 
 Basado en el template:
 [https://crumplab.github.io/LabJournalWebsite/index.html](https://crumplab.github.io/LabJournalWebsite/index.html)
