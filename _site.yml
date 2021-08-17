@@ -9,5 +9,18 @@ navbar:
     - text: "Clases"
       href: Clases.html
     - text: "TP"
-      href: TP.html
+      menu:
+        - text: "TP"
+          href: TP.html
+        - text: "Heading 1"
+        - text: "Page A"
+          href: page-a.html
+        - text: "Page B"
+          href: page-b.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
 output_dir: "docs"
