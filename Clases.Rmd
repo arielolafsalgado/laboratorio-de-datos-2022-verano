@@ -7,9 +7,7 @@ output: html_document
 
 * [Presentación de la materia](https://github.com/guillermosolovey/laboratoriodedatos2021-2C/blob/master/docs/NotebooksTeoricas/Presentacion.pdf)
 * Instalación de R y RStudio: Para instalar R, sigan [este link](http://mirror.fcaglp.unlp.edu.ar/CRAN/) seleccionando su sistema operativo. Luego descarguen RStudio (versión gratuita) siguiendo [este link](https://www.rstudio.com/products/rstudio/download/#download). Si surge algún problema con esto, lo resolvemos en la clase. 
-* Hello R. [video](https://youtube.com/playlist?list=PLq-WhOVzhK9yqiDESHs1x4zjUCDtQtWtp)  | [cheatsheet para arrancar](./docs/NotebooksTeoricas/HelloR/notebook_HelloR.nb.html) 
-* [Ejercicios de precalentamiento](docs/TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html)
-
+* [TP-0](./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html)
 
 #### Clase 2, 19/8
 

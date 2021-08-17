@@ -8,19 +8,6 @@ navbar:
       href: Programa.html
     - text: "Clases"
       href: Clases.html
-    - text: "TP"
-      menu:
-        - text: "TP"
-          href: TP.html
-        - text: "Heading 1"
-        - text: "Page A"
-          href: page-a.html
-        - text: "Page B"
-          href: page-b.html
-        - text: "---------"
-        - text: "Heading 2"
-        - text: "Page C"
-          href: page-c.html
-        - text: "Page D"
-          href: page-d.html
+    - text: "TP-0"
+      href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
 output_dir: "docs"
