@@ -1,0 +1,22 @@
+---
+title: "Programa"
+output: html_document
+---
+
+### Contenidos
+1. Obtención y organización de datos. Datos estructurados y no estructurados.
+2. Visualización de datos como herramienta exploratoria antes del desarrollo de modelos y aprendizaje estadísticos. Análisis exploratorio de datos.
+3. Introducción al modelado. Regresión lineal múltiple y vecinos más cercanos. Modelos predictivos vs. modelos explicativos. Distinción entre modelos univariados y multivariados, y entre modelos paramétricos y no-paramétricos.
+4. Herramientas de validación de un modelo. Muestras de testeo y entrenamiento. Métricas y métodos para la evaluación de algoritmos y modelos estadísticos.
+5. Análisis Supervisado: Regresión y Clasificación
+6. Análisis No Supervisado: Clustering y Reducción de Dimensión
+
+
+### Referencias
+* Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy,
+transform, visualize, and model data. O'Reilly Media, Inc. [En español](https://es.r4ds.hadley.nz/)
+
+* Antonio Vazquez Brust, (2020) Ciencia de Datos para Gente Sociable -  [Libro Completo](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/)
+
+* Healy, K. (2018). Data visualization: a practical introduction. Princeton University Press. El libro completo [disponible online](https://socviz.co/). [Material suplementario](https://github.com/kjhealy/socviz) 
+

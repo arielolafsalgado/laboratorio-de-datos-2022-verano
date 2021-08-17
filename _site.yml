@@ -5,5 +5,9 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Programa"
-      href: Links.html
+      href: Programa.html
+    - text: "Clases"
+      href: Clases.html
+    - text: "TP"
+      href: TP.html
 output_dir: "docs"
