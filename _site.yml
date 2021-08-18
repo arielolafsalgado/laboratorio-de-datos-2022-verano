@@ -5,5 +5,11 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Programa"
-      href: Links.html
+      href: Programa.html
+    - text: "Clases"
+      href: Clases.html
+    - text: "HelloR"
+      href: ./NotebooksTeoricas/HelloR/notebook_HelloR.nb.html
+    - text: "TP-0"
+      href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
 output_dir: "docs"

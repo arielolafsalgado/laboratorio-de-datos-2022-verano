@@ -14,20 +14,20 @@ output: html_document
 
 </style>
 
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
+<!-- <div class="row" style="padding-top: 30px;"> -->
+<!-- <div class="col-sm-6"> -->
 
-# **Presentación**
+Esta es la página de la materia "Laboratorio de Datos" de la
+[Licenciatura en Ciencia de Datos](https://https://lcd.exactas.uba.ar/) de la 
+[Facultad de Ciencias Exactas y Naturales](https://https://lcd.exactas.uba.ar/) 
+que se dicta durante el 2do. cuatrimestre de 2021.
 
-Esta es la página de la materia "Laboratorio de Datos" de la Licenciatura en Ciencia de Datos de
-la Facultad de Ciencias Exactas y Naturales a dictarse durante el 2do. cuatrimestre de 2021.
 
+### Días y horarios
 
-## Días y horarios
+Martes y Jueves de 9 a 12.
 
-Martes y Jueves de 9 a 12 a partir del 17 de Agosto.
-
-## Docentes
+### Docentes
 
 - Andrés Farall 
 - Guillermo Solovey
@@ -35,12 +35,12 @@ Martes y Jueves de 9 a 12 a partir del 17 de Agosto.
 - Ariel Salgado
 - Matías Iglesias
 
-</div>
-<div class="col-sm-6">
+<!-- </div> -->
+<!-- <div class="col-sm-6"> -->
 
-### Licenciatura en Ciencia de Datos
+<!-- ### Licenciatura en Ciencia de Datos -->
 
-<a href = "https://https://lcd.exactas.uba.ar/">
-![](images/marca2020-1negro.png)
-</a>
-</div>
+<!-- <a href = "https://https://lcd.exactas.uba.ar/"> -->
+<!-- ![](images/marca2020-1negro.png) -->
+<!-- </a> -->
+<!-- </div> -->
