@@ -12,4 +12,6 @@ navbar:
       href: ./NotebooksTeoricas/HelloR/notebook_HelloR.nb.html
     - text: "TP-0"
       href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
+    - text: "TP-1"
+      href: ./TrabajosPracticos/Temperaturas/temperatura_ejercicios_nb.html
 output_dir: "docs"
