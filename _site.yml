@@ -1,4 +1,5 @@
 name: "Laboratorio de datos 2021 - 2do cuat"
+include: ./TrabajosPracticos/Temperaturas/historico_temperaturas.csv
 navbar:
   title: "Laboratorio de datos"
   left:
