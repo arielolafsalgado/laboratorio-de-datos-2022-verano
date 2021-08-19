@@ -13,5 +13,5 @@ output: html_document
 #### Clase 2, 19/8
 
 * Intro a estadistica descriptiva y visualización: [Video](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadística Descriptivanotebook_estadística_descriptiva.nb.html/)    
-* Intro a estadistica descriptiva y visualización
+* Intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html)
 
