@@ -1,5 +1,6 @@
 name: "Laboratorio de datos 2021 - 2do cuat"
-include: ./TrabajosPracticos/Temperaturas/historico_temperaturas.csv
+include: ["./TrabajosPracticos/Temperaturas/historico_temperaturas.csv",
+          "./NotebooksTeoricas/Estadistica Descriptiva/ar_properties.csv"]
 navbar:
   title: "Laboratorio de datos"
   left:
@@ -11,6 +12,8 @@ navbar:
       href: Clases.html
     - text: "HelloR"
       href: ./NotebooksTeoricas/HelloR/notebook_HelloR.nb.html
+    - text: "NB-Descriptiva"
+      href: "./NotebooksTeoricas/Estadística Descriptiva/notebook_estadística_descriptiva.nb.html"
     - text: "TP-0"
       href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
     - text: "TP-1"
