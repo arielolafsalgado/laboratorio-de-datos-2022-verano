@@ -11,12 +11,15 @@ navbar:
       href: Programa.html
     - text: "Clases"
       href: Clases.html
-    - text: "HelloR"
-      href: ./NotebooksTeoricas/HelloR/notebook_HelloR.nb.html
-    - text: "NB-Descriptiva"
-      href: "./NotebooksTeoricas/Estadística Descriptiva/notebook_estadística_descriptiva.nb.html"
-    - text: "TP-0"
-      href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
-    - text: "TP-1"
-      href: ./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html
+    - text: "Notebooks"
+      icon: fa-laptop
+      menu:
+      - text: "HelloR"
+        href: ./NotebooksTeoricas/HelloR/notebook_HelloR.nb.html
+      - text: "NB-Descriptiva"
+        href: ./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html
+      - text: "TP-0"
+        href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
+      - text: "TP-1"
+        href: ./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html
 output_dir: "docs"
