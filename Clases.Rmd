@@ -12,7 +12,7 @@ output: html_document
 
 #### Clase 2, 19/8
 
-* Intro a estadistica descriptiva y visualización: [Video](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica Descriptiva/ar_properties.csv)
+* Intro a estadistica descriptiva y visualización: [Video](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
 |    
-* Intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html/) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
+* Intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
 
