@@ -22,4 +22,6 @@ navbar:
         href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
       - text: "TP-1"
         href: ./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html
+      - text: "TP-2"
+        href: ./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html
 output_dir: "docs"
