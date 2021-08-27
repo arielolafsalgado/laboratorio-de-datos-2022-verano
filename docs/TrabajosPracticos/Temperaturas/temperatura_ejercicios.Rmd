@@ -89,7 +89,7 @@ Calcule las temperaturas promedio y mediana a lo largo de todos los años usando
 
 #### ¿Cuál es el mes más frio del año? ¿Y el más cálido?
 
-Calcule la temperatura media, mínima y máxima promedio para cada mes, y construya un boxplot de la temperatura media separado por mes. ¿Qué meses presentan temperaturas más atípicas?
+Calcule la temperatura media, mínima y máxima promedio para cada mes, y construya un barplot de la temperatura media separado por mes. ¿Qué meses presentan temperaturas más atípicas?
 
 #### ¿Cuál es el mes con temperatura más variable?
 

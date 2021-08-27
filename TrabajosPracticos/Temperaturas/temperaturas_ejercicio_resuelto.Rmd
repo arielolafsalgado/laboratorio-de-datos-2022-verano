@@ -81,7 +81,7 @@ _Los colores los indicamos usando la opción_ `col` _ en la función `plot`. _Pa
 
 * Respuesta:
 ```{r}
-plot(datos$fecha,datos$media,type='l',ylim=range(datos$mínima,datos$máxima))
+plot(datos$fecha,datos$media,type='l',ylim=c(5,40))
 lines(datos$fecha,datos$máxima,col='red')
 lines(datos$fecha,datos$mínima,col='blue')
 ```
@@ -138,6 +138,7 @@ medias_mensuales = rep(NA,12) # Un vector a completar con la temperatura media d
 minimas_mensuales = rep(NA,12)
 maximas_mensuales = rep(NA,12)
 meses = unique(datos$mes)
+
 
 for(i in 1:length(meses)){
   mes = meses[i]

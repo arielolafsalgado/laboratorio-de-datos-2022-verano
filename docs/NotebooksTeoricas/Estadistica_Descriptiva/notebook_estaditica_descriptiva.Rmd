@@ -261,7 +261,7 @@ boxplot(superficie)
 boxplot(superficie,outline = FALSE)
 ```
 
-El boxplot nos dibuja una caja cuyo tamaño es igual a la distancia intercuartil, y dibuja una linea negra donde está ubicado la mediana. Por último, se agregan dos "bigotes" que se extienden hasta 1.5 veces la distancia intercuartil. Los datos que caen fuera de estos bigotes son considerados _outliers_, y son indicados como puntos. En nuestro caso, graficar el boxplot directamente nos muestra cuanto más grande es el rango que cubren los outliers. La opción `outline=FALSE` nos permite graficar el boxplot sin los outliers.
+El boxplot nos dibuja una caja cuyo tamaño es igual a la distancia intercuartil, y dibuja una linea negra donde está ubicado el promedio. Por último, se agregan dos "bigotes" que se extienden hasta 1.5 veces la distancia intercuartil. Los datos que caen fuera de estos bigotes son considerados _outliers_, y son indicados como puntos. En nuestro caso, graficar el boxplot directamente nos muestra cuanto más grande es el rango que cubren los outliers. La opción `outline=FALSE` nos permite graficar el boxplot sin los outliers.
 
 
 ## Histogramas y barplots
