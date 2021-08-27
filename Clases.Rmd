@@ -23,6 +23,7 @@ output: html_document
     
 * Seguimos con intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
 
+* [Fragmento de la clase sync](https://youtu.be/OJ9gP30TwtE)
 
 #### 4. 26/8
 
