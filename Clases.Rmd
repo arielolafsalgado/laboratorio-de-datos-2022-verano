@@ -3,30 +3,41 @@ title: "Clases"
 output: html_document
 ---
   
-#### Clase 1, 17/8
+#### 1. 17/8
 
 * [Presentación de la materia](https://github.com/guillermosolovey/laboratoriodedatos2021-2C/blob/master/docs/NotebooksTeoricas/Presentacion.pdf) | [Video de la clase](https://youtu.be/xeuQD_5NAEY) | extra: [Qué son los datos](https://youtube.com/playlist?list=PLN2e9R_DoC0SfT6Pnr2umyTw2hL-EVWPT)
 * Instalación de R y RStudio: Para instalar R, sigan [este link](http://mirror.fcaglp.unlp.edu.ar/CRAN/) seleccionando su sistema operativo. Luego descarguen RStudio (versión gratuita) siguiendo [este link](https://www.rstudio.com/products/rstudio/download/#download). Si surge algún problema con esto, lo resolvemos en la clase. 
 * Precalentamiento: [Video](https://youtube.com/playlist?list=PLq-WhOVzhK9yqiDESHs1x4zjUCDtQtWtp) | [Notebook](./NotebooksTeoricas/HelloR/notebook_HelloR.nb.html)
 * Precalentamiento: [TP-0](./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html)
 
-#### Clase 2, 19/8
+#### 2. 19/8
 
 * Intro a estadistica descriptiva y visualización: [Videos, ver del 1-8](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
     
 * Intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
 
 
-#### Clase 3, 24/8
+####  3. 24/8
 
 * Intro a estadistica descriptiva y visualización: [Videos, ver del 9-12](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
     
 * Seguimos con intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
 
 
-#### Clase 4, 26/8
+#### 4. 26/8
 
 * Intro a estadistica descriptiva y visualización: [Videos, ver del 13-16](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
     
 * Seguimos con intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv) |  [TP-2](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html)
+
+#### 5. 31/8
+
+* TP-2: re-explorando los datos de Properati. [notebook](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
+
+#### 6. 2/9
+
+* Análisis de Precios por Metro Cuadrado de CABA con Properati. [videos](https://youtube.com/playlist?list=PLN2e9R_DoC0RQu0ppINT_wyJY070V2zTr) | [notebook](./NotebooksTeoricas/Espacial_Properati/EDA-Precios-por-Metro-Cuadrado-de-CABA-con-Properatti.html)
+* TP-2: re-explorando los datos de Properati. [notebook](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
+
+
 
