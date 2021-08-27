@@ -12,14 +12,14 @@ output: html_document
 
 #### 2. 19/8
 
-* Intro a estadistica descriptiva y visualización: [Videos, ver del 1-8](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
+* Intro a estadistica descriptiva y visualización: [Videos, ver del 1-8](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
     
 * Intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
 
 
 ####  3. 24/8
 
-* Intro a estadistica descriptiva y visualización: [Videos, ver del 9-12](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
+* Intro a estadistica descriptiva y visualización: [Videos, ver del 9-12](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
     
 * Seguimos con intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv)
 
@@ -27,11 +27,11 @@ output: html_document
 
 #### 4. 26/8
 
-* Intro a estadistica descriptiva y visualización: [Videos, ver del 13-16](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [Datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
+* Intro a estadistica descriptiva y visualización: [Videos, ver del 13-16](https://youtube.com/playlist?list=PLq-WhOVzhK9xNqZSIaq8-f1MTKmRswpF7) | [Notebook](./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
     
 * Seguimos con intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv) |  [TP-2](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html)
 
-* Grabamos la resolución del TP1 que hicimos en clase. [video](https://youtu.be/c8t_yHLQgp4) | [Rmd](./TrabajosPracticos/Temperaturas/temperatura_ejercicios_resuelto.Rmd)
+* Grabamos la resolución del TP1 que hicimos en clase. [video](https://youtu.be/c8t_yHLQgp4) | [notebook](./TrabajosPracticos/Temperaturas/temperaturas_ejercicio_resuelto.html)
 
 #### 5. 31/8
 

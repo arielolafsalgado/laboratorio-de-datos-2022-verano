@@ -1,7 +1,7 @@
 name: "Laboratorio de datos 2021 - 2do cuat"
 include: ["./TrabajosPracticos/Temperaturas/historico_temperaturas.csv",
           "./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv",
-          "./TrabajosPracticos/Temperaturas/temperatura_ejercicios_resuelto.Rmd",
+          "./TrabajosPracticos/Temperaturas/temperatura_ejercicio_resuelto.html",
           "./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html"]
 navbar:
   title: "Laboratorio de datos"
@@ -30,6 +30,8 @@ navbar:
         href: ./TrabajosPracticos/HelloR/ejercicios_HelloR.nb.html
       - text: "TP-1"
         href: ./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html
+      - text: "TP-1-sol"
+        href: ./TrabajosPracticos/Temperaturas/temperaturas_ejercicio_resuelto.html
       - text: "TP-2"
         href: ./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html
 output_dir: "docs"
