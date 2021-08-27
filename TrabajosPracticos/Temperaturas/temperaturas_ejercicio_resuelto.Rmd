@@ -1,0 +1,234 @@
+---
+title: "Temperatura histórica en C.A.B.A."
+author: "Ariel Salgado"
+date: "20 de Julio de 2021"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+  html_notebook:
+    theme: lumen
+    toc: yes
+    toc_float: yes
+subtitle: "Laboratorio de Datos"
+---
+
+# Este notebook
+
+En este notebook el objetivo es que ustedes puedan emplear lo visto en el notebook _Nociones básicas de estadística descriptiva_ para caracterizar la evolución de la temperatura mensual en la C.A.B.A. 
+
+Proponemos una serie de preguntas _guía_ a responder usando las herramientas que vimos en el notebook de estadística descriptiva. Sientan la libertad de hacer nuevas preguntas y explorar el dataset libremente.
+
+# El dataset
+
+El dataset que usaremos puede descargarse (además del repositorio) de la página del gobierno de la ciudad en formato csv: https://data.buenosaires.gob.ar/dataset/registro-temperatura-ciudad
+
+Carguemoslo:
+
+```{r}
+datos = read.csv('historico_temperaturas.csv')
+```
+
+* Visualicen las primeras filas usando la función `head`
+
+```{r}
+head(datos)
+```
+
+Dado que mes y año no están en un formato cómodo para ser procesado y graficado, necesitamos crear un string que contenga esa misma información pero en formato _YYYY-MM-DD_ (año-mes-día). Hay formas de hacerlo automáticamente, pero hoy la función la van a hacer ustedes. Les dejo un boceto:
+
+```{r}
+arma_fecha = function(año,mes){
+  # Primero necesitamos convertir el mes en palabras a número con dos dígitos. 
+  # Lo hacemos con un diccionario y la función match
+  diccionario = c('Enero'='01',
+                   'Febrero'='02',
+                   'Marzo'='03',
+                   'Abril'='04',
+                   'Mayo'='05',
+                   'Junio'='06',
+                   'Julio'='07',
+                   'Agosto'='08',
+                   'Septiembre'='09',
+                   'Octubre'='10',
+                   'Noviembre'='11',
+                   'Diciembre'='12')
+  mes_numerico = diccionario[match(mes,names(diccionario))] # Exploren esto un poco en la consola para ver qué hace exactamente.
+  fechas = paste(año,mes_numerico,'01',sep='-')
+  # Fijamos el día siempre en el primero del més
+  fechas = as.Date(fechas) # Lo convertimos a un formato de fecha
+  return(fechas)
+}
+
+datos$fecha = arma_fecha(datos$año,datos$mes)
+```
+
+# Preguntas
+
+#### ¿Qué puede decir de la evolución de la temperatura a lo largo del tiempo?
+
+Realice un gráfico que muestre la temperatura media en función de la fecha. _Sugerencia: agregando en_ `plot(x,y)` _la opción `type='l'` obtenemos un gráfico de lineas:_ `plot(x,y,type='l')`.
+
+* Respuesta:
+```{r}
+plot(datos$fecha,datos$media,type='l')
+```
+
+#### ¿Qué puede decir de la evolución de la mínima y la máxima en función del tiempo?
+
+Realice un gráfico que muestre la evolución de las tres temperaturas (mínima, media y máxima) a la vez, con lineas y usando diferentes colores.
+_Los colores los indicamos usando la opción_ `col` _ en la función `plot`. _Para agregar lineas usamos la función `lines`.
+
+* Respuesta:
+```{r}
+plot(datos$fecha,datos$media,type='l',ylim=range(datos$mínima,datos$máxima))
+lines(datos$fecha,datos$máxima,col='red')
+lines(datos$fecha,datos$mínima,col='blue')
+```
+#### ¿En qué año y mes se registró la temperatura máxima? ¿Y la mínima?
+
+Detecte, año, mes y fecha y repita el gráfico anterior, agregando un punto rojo y uno azul en la posición de la temperatura máxima y mínima.
+_Para agregar puntos a un gráfico, puede usar la función_ `points` _, similar a_ `lines` _. Para ubicar las posiciones donde ocurre el máximo y el mínimo de un vector aproveche las funciones_ `which.max` _y_ `which.min`.
+
+* Respuesta
+
+```{r}
+imax = which.max(datos$máxima)
+imin = which.min(datos$mínima)
+
+print(datos[imax,])
+print(datos[imin,])
+
+
+plot(datos$fecha,datos$media,type='l',ylim=c(5,40))
+lines(datos$fecha,datos$máxima,col='red')
+lines(datos$fecha,datos$mínima,col='blue')
+points(datos$fecha[imax],datos$máxima[imax],col='red',pch=18)
+points(datos$fecha[imin],datos$mínima[imin],col='blue',pch=18)
+```
+
+#### ¿En torno a que valor ronda la temperatura en C.A.B.A.?
+
+Calcule las temperaturas promedio y mediana a lo largo de todos los años usando la temperatura media mensual. ¿Son similares en este caso? Calcule la desviación estandar de la temperatura media y los cuartiles 1ro y 3ro, y agreguelos al gráfico original de la temperatura media. _La función_ `abline` _permite dibujar lineas horizontales a través de su argumento_ `h`.
+
+
+```{r}
+promedio = mean(datos$media)
+mediana = median(datos$media)
+SD = sd(datos$media)
+Q1 = quantile(datos$media,.25)
+Q3 = quantile(datos$media,.75)
+print(promedio)
+print(mediana)
+
+plot(datos$fecha,datos$media,type='l')
+abline(h=promedio,col='blue',lty='solid')
+abline(h=mediana,col='red',lty='solid')
+abline(h=promedio+c(-SD,SD),col='blue',lty='dashed')
+abline(h=c(Q1,Q3),col='red',lty='dashed')
+
+```
+
+#### ¿Cuál es el mes más frio del año? ¿Y el más cálido?
+
+Calcule la temperatura media, mínima y máxima promedio para cada mes, y construya un boxplot de la temperatura media separado por mes. ¿Qué meses presentan temperaturas más atípicas?
+
+```{r}
+medias_mensuales = rep(NA,12) # Un vector a completar con la temperatura media de cada mes
+minimas_mensuales = rep(NA,12)
+maximas_mensuales = rep(NA,12)
+meses = unique(datos$mes)
+
+for(i in 1:length(meses)){
+  mes = meses[i]
+  medias_mensuales[i] = mean(datos$media[datos$mes==mes])
+  minimas_mensuales[i] = mean(datos$mínima[datos$mes==mes])
+  maximas_mensuales[i] = mean(datos$máxima[datos$mes==mes])
+}
+
+temperaturas_mensuales = cbind(medias_mensuales,minimas_mensuales,maximas_mensuales)
+rownames(temperaturas_mensuales) = meses
+
+print(temperaturas_mensuales)
+datos$mes = factor(datos$mes,meses)
+boxplot(datos$media~datos$mes,las=2,xlab='')
+
+# Acá el barplot también
+barplot(medias_mensuales,names.arg = meses,las=2,cex.names=.8)
+
+```
+
+#### ¿Cuál es el mes con temperatura más variable?
+
+Calcule la variabilidad de cada mes como `máxima-mínima` y calcule el promedio mensual y construya un boxplot para cada mes. ¿En qué mes es más variable la temperatura? ¿Y en cuál menos? ¿Observa una relación con la temperatura del mes?
+
+```{r}
+datos$variabilidad = datos$máxima-datos$mínima
+variabilidad_mensual = rep(NA,12) # Un vector a 
+for(i in 1:length(meses)){
+  mes = meses[i]
+  variabilidad_mensual[i] = mean(datos$variabilidad[datos$mes==mes]) 
+}
+names(variabilidad_mensual) = meses
+print(variabilidad_mensual)
+
+boxplot(datos$variabilidad~datos$mes,las=2,xlab='')
+
+barplot(variabilidad_mensual,names.arg = meses,las=2,cex.names=.8)
+barplot(variabilidad_mensual,names.arg = meses,las=2,cex.names=.8)
+
+```
+
+#### ¿Cómo se relacionan la temperatura media y la variabilidad?
+
+Grafique la temperatura media contra la variabilidad. ¿Observa una relación? Calcule el coeficiente de correlación entre ambas. ¿Se condice con lo que observa en el gráfico?
+
+
+```{r}
+colores = as.numeric((datos$fecha-min(datos$fecha)))/(as.numeric(diff(range(datos$fecha))))
+colores = rgb(1-colores,colores,0)
+plot(datos$media,datos$variabilidad,col=colores,pch=18)
+print(cor(datos$media,datos$variabilidad))
+md = lm(variabilidad~media,data = datos)
+lines(datos$media,predict(md))
+```
+
+
+#### ¿Cómo cambió la temperatura a lo largo de los años?
+
+Grafique boxplots separando la temperatura media por año, y la variabilidad por año. Calcule la temperatura media, mínima y máxima por año. ¿Detecta algún año especialmente frío? Grafique la temperatura media máxima y mínima año a año. Calcule la correlación entre el año y la temperatura media.
+
+
+```{r}
+boxplot(datos$media~datos$año)
+abline(h=mean(datos$media))
+
+boxplot(datos$variabilidad~datos$año)
+abline(h=mean(datos$variabilidad))
+
+años = unique(datos$año)
+
+medias_anual = rep(NA,length(años))
+minimas_anual = rep(NA,length(años))
+maximas_anual = rep(NA,length(años))
+for(i in 1:length(años)){
+  año = años[i]
+  medias_anual[i] = mean(datos$media[datos$año==año])
+  minimas_anual[i] = mean(datos$mínima[datos$año==año])
+  maximas_anual[i] = mean(datos$máxima[datos$año==año])
+}
+
+temperaturas_anuales = cbind(medias_anual,minimas_anual,maximas_anual)
+rownames(temperaturas_anuales) = años
+
+años_fecha = as.Date(as.character(años),format='%Y')
+print(temperaturas_anuales)
+plot(años_fecha,temperaturas_anuales[,1],type='l',ylim=c(10,30))
+abline(h=mean(temperaturas_anuales[,1]))
+lines(años_fecha,temperaturas_anuales[,2],col='blue')
+abline(h=mean(temperaturas_anuales[,2]),col='blue')
+lines(años_fecha,temperaturas_anuales[,3],col='red')
+abline(h=mean(temperaturas_anuales[,3]),col='red')
+
+print(cor(años,temperaturas_anuales[,1]))
+```
