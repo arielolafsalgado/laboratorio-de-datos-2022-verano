@@ -30,7 +30,7 @@ output: html_document
     
 * Seguimos con intro a estadistica descriptiva y visualización: [TP-1](./TrabajosPracticos/Temperaturas/temperatura_ejercicios.nb.html) | [datos](./TrabajosPracticos/Temperaturas/historico_temperaturas.csv) |  [TP-2](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html)
 
-* Grabamos la resolución del TP1 que hicimos en clase. [video](https://youtu.be/c8t_yHLQgp4)
+* Grabamos la resolución del TP1 que hicimos en clase. [video](https://youtu.be/c8t_yHLQgp4) | [Rmd](./TrabajosPracticos/Temperaturas/temperatura_ejercicios_resuelto.Rmd)
 
 #### 5. 31/8
 

@@ -1,6 +1,7 @@
 name: "Laboratorio de datos 2021 - 2do cuat"
 include: ["./TrabajosPracticos/Temperaturas/historico_temperaturas.csv",
           "./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv",
+          "./TrabajosPracticos/Temperaturas/temperatura_ejercicios_resuelto.Rmd",
           "./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.nb.html"]
 navbar:
   title: "Laboratorio de datos"
