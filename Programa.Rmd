@@ -3,6 +3,14 @@ title: "Programa"
 output: html_document
 ---
 
+
+### Objetivos
+1. Brindar una introducción al Análisis Exploratorio de Datos (EDA) y al Modelado de Datos, utilizando elementos básicos de matemáticas y de programación, sin el uso de nociones de Probabilidad y Estadística. 
+
+2. Generar una serie de preguntas que pueden hacerse sobbre un conjunto de datos, que finalmente serán respondidas mediante modelos estadísticos o algoritmos del machine learning.
+
+3. Introducir algunos conceptos fundamentales de la Ciencia de Datos, como ser: Descripción-Predicción-Excplicación, significatividad estadística, sobreajuste, bondad de ajuste, funciones de pérdida, asoociación entre variables, análisis supervisado vs. no supervisado, modelos paramétricos vs. no paramétricos, etc.
+
 ### Contenidos
 1. Obtención y organización de datos. Datos estructurados y no estructurados.
 2. Visualización de datos como herramienta exploratoria antes del desarrollo de modelos y aprendizaje estadísticos. Análisis exploratorio de datos.
