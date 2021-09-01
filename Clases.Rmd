@@ -37,6 +37,8 @@ output: html_document
 
 * TP-2: re-explorando los datos de Properati. [notebook](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
 
+* Grabamos la puesta en común de la primera parte del TP 2. [video](https://youtu.be/hucTkW-OrvA)
+
 #### 6. 2/9
 
 * Análisis de Precios por Metro Cuadrado de CABA con Properati. [videos](https://youtube.com/playlist?list=PLN2e9R_DoC0RQu0ppINT_wyJY070V2zTr) | [notebook](./NotebooksTeoricas/Espacial_Properati/EDA-Precios-por-Metro-Cuadrado-de-CABA-con-Properatti.html)
