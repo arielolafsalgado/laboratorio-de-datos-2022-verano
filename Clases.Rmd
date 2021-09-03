@@ -45,4 +45,7 @@ output: html_document
 * TP-2: re-explorando los datos de Properati. [notebook](./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html) | [datos](./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv)
 
 
+#### 7. 7/9
+
+* Esta clase vamos a empezar con un notebook y ejercicios de datos no estructurados. 
 
