@@ -19,6 +19,9 @@ navbar:
         href: ./NotebooksTeoricas/Estadistica_Descriptiva/notebook_estadistica_descriptiva.html
       - text: "NB-Espacial-Properati"
         href: ./NotebooksTeoricas/Espacial_Properati/EDA-Precios-por-Metro-Cuadrado-de-CABA-con-Properatti.html
+      - text: "NB-No-Estructurados-APIs"
+        href: ./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html
+        
     - text: "Notebooks TP"
       icon: fa-laptop
       menu:
