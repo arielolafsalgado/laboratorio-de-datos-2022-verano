@@ -15,6 +15,8 @@ subtitle: "Laboratorio de Datos"
 
 # Datos No Estructurados
 
+Pensado para ir siguiendo [estos videos](https://www.youtube.com/playlist?list=PLmKafz8lJ_AXM7uxhasLR665ZqWlpC6RD)
+
 ## No todo viene siempre en un CSV
 
 En esta parte de la materia vamos a explorar otras fuentes de datos que que no son el tradicional archivo CSV. En rigor, se usa el término no estructurado para referirse a cualquier fuente de datos que no se encuentre en formato de tabla. Como suele pasar con categorias que se define por la negativa contiene cosas de las más variadas:
