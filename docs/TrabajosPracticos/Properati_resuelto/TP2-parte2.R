@@ -15,14 +15,21 @@ d.arg  <- d.all[filtro,]
   
 tbl <- table(d.arg$l2, d.arg$operation_type)
 tbl <- prop.table(tbl,1)
-d   <- data.frame(loc = rownames(tbl),
-                  alq = as.numeric(as.matrix(tbl)[,1]),
-                  ven = as.numeric(as.matrix(tbl)[,2]))
+par(mar = c(9, 4, 2, 2))
+barplot(t(tbl), las=2, beside = T, cex.names = 0.7, legend = T,
+        args.legend = list(x = 25, y = 1.1))
 
-# par(mar=c(bottom, left, top, right)) - default: c(5.1, 4.1, 4.1, 2.1)
-# mar.default <- c(5.1, 4.1, 4.1, 2.1)
-par(mar = c(7, 4, 2, 2))
-barplot(d$alq, names.arg = d$loc, las = 2, ylim = c(0,1), cex.names = 0.5)
+
+# 
+# 
+# d   <- data.frame(loc = rownames(tbl),
+#                   alq = as.numeric(as.matrix(tbl)[,1]),
+#                   ven = as.numeric(as.matrix(tbl)[,2]))
+# 
+# # par(mar=c(bottom, left, top, right)) - default: c(5.1, 4.1, 4.1, 2.1)
+# # mar.default <- c(5.1, 4.1, 4.1, 2.1)
+# par(mar = c(7, 4, 2, 2))
+# barplot(d$alq, names.arg = d$loc, las = 2, ylim = c(0,1), cex.names = 0.5)
 
 
   
