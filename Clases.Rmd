@@ -47,5 +47,11 @@ output: html_document
 
 #### 7. 7/9
 
-* Esta clase vamos a empezar con un notebook y ejercicios de datos no estructurados. 
+* Solución TP-2: [Video, parte1](https://youtu.be/JzoKhBOGFJk) | [Video, parte2](https://youtu.be/Kyr0WjVpgP4) | [script-p1](./TrabajosPracticos/Properati_resuelto/TP2-parte1.R) | [script-p2](./TrabajosPracticos/Properati_resuelto/TP2-parte2.R)
+* Datos no estructurados. [Notebook](./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html)
+
+
+#### 8. 7/9
+
+* Datos no estructurados. [Notebook](./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html)
 
