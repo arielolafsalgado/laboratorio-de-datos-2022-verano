@@ -49,7 +49,7 @@ output: html_document
 
 * Solución TP-2: [Video, parte1](https://youtu.be/JzoKhBOGFJk) | [Video, parte2](https://youtu.be/Kyr0WjVpgP4) | [script-p1](./TrabajosPracticos/Properati_resuelto/TP2-parte1.R) | [script-p2](./TrabajosPracticos/Properati_resuelto/TP2-parte2.R)
 * Datos no estructurados. [Notebook](./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html) | [Videos](https://youtube.com/playlist?list=PLmKafz8lJ_AXM7uxhasLR665ZqWlpC6RD)
-
+* Comentarios sobre el TP de datos no estructurados: [Video](https://youtu.be/-XhcaSOGxXM)
 
 #### 8. 9/9
 
