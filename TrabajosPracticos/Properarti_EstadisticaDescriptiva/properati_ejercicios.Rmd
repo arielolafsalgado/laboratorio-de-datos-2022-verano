@@ -1,6 +1,6 @@
 ---
 title: "Reexplorando PROPERATI"
-author: "Ariel Salgado"
+author: "Andrés Farall, Ariel Salgado"
 date: "20 de Julio de 2021"
 output:
   html_document:

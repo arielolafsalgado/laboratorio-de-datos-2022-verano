@@ -1,4 +1,4 @@
-# Laboratorio de datos 2020 - 2do cuatrimestre
+# Laboratorio de datos 2021 - 2do cuatrimestre
 
 
 [Licenciatura en Ciencia de Datos](https://https://lcd.exactas.uba.ar/)
