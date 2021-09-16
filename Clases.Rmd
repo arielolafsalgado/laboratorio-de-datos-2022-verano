@@ -55,3 +55,20 @@ output: html_document
 
 * Esta clase vamos a dedicarla completamente a primera parte de la la guía de datos no estructurados (es decir, no a la parte de APIs). [Notebook](./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html)  | [Videos](https://youtube.com/playlist?list=PLmKafz8lJ_AXM7uxhasLR665ZqWlpC6RD). Desde ya, el quiera seguir adelante con APIs ya está todo el material disponible para que lo hagan.
 * Puesta en común de la primera parte del TP de datos no estructurados [Video](https://youtu.be/0jnWDETakVc)
+
+#### 9. 11/9
+
+* En la clase se resolvieron ejercicios de la scrapeo, primera parte de la guia de datos no estructurados
+
+#### 10. 14/9
+
+* APIs [Notebook](./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html)  | [Videos](https://youtube.com/playlist?list=PLmKafz8lJ_AXM7uxhasLR665ZqWlpC6RD).
+* Ejercicios de APIs. 
+
+#### 11. 16/9
+
+* En la clase se resolvieron ejercicios de APIs, segunda parte de la guia de datos no estructurados. Puesta en común: [video](https://youtu.be/jzwiAXzeRus)
+
+#### 21/9 (día de la primavera, no hay clases)
+
+
