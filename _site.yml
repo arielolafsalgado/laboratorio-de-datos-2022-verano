@@ -35,4 +35,7 @@ navbar:
         href: ./TrabajosPracticos/Temperaturas/temperaturas_ejercicio_resuelto.html
       - text: "TP-2"
         href: ./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html
+      - text: "TP-3"
+        href: ./TrabajosPracticos/Visualizacion1/TP4-Visualizacion.nb.html
+        
 output_dir: "docs"

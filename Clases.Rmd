@@ -71,4 +71,9 @@ output: html_document
 
 #### 21/9 (día de la primavera, no hay clases)
 
+#### 23/9 
+
+* Visualización de datos. [4 videos](https://youtube.com/playlist?list=PLoRRdiqaH8sGK7H3vSaCcm5Aamg1gPfpp) | [Slides](https://docs.google.com/presentation/d/1-z1GsiKH2aDWiN9DluUm-udAkjmBw11zAABNk-9KgQE/edit?usp=sharing)
+* Ejercicios de visualización de datos, [parte 1](./TrabajosPracticos/Visualizacion1/TP4-Visualizacion.nb.html)
+
 
