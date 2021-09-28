@@ -67,7 +67,7 @@ de reproducirlo. Les puede servir algo de lo que está [acá](https://www.cedric
 
 
 ```{r echo=FALSE, fig.height=3.5, fig.width=5, message=FALSE, warning=FALSE}
-d <- read_csv("/Users/gsolovey/Downloads/data_exp.csv")
+d <- read_csv("data_exp.csv")
 colnames(d) <- c("circulos","puntos")
 
 d.tidy <- d %>% pivot_longer(cols = c(circulos, puntos), names_to = "preg", values_to = "porc")
@@ -153,7 +153,7 @@ library(lubridate)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, fig.height=10, fig.width=9}
 require(lubridate)
-d.temp <- read_csv("/Users/gsolovey/Dropbox/work/2021/cursos/laboratorio de datos/TP1/historico_temperaturas.csv")
+d.temp <- read_csv("historico_temperaturas.csv")
 
 
 d <- d.temp %>% 

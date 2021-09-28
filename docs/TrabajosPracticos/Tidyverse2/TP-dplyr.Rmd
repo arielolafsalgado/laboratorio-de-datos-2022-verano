@@ -30,8 +30,8 @@ El objetivo de estos ejercicios es familiarizarse con las siguientes funciones d
 
 * `filter()`: quedarse con las filas que satisfacen ciertas condiciones.
 * `select()`: quedarse o excluir algunas columnas del dataset.
-* `relocate`()`: renombrar columnas. 
-* `rename`()`: mover columnas de lugar.
+* `relocate`()`: mover columnas de lugar.
+* `rename`()`: renombrar columnas. 
 * `mutate()`: crear una nueva variable (columna) operando con las demás.
 * `group_by()` + `summarize()`: obtener medidas resumen de los datos por grupos.
 * `across()`: aplicar una función a varias columnas.

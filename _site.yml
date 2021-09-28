@@ -38,8 +38,8 @@ navbar:
       - text: "TP-3"
         href: ./TrabajosPracticos/Visualizacion1/TP4-Visualizacion.nb.html
       - text: "TP-4"
-        href: ./TrabajosPracticos/Tidyverse2/TP-dplyr.nb.html
+        href: ./TrabajosPracticos/Tidyverse2/TP-dplyr.html
       - text: "TP-5"
-        href: ./TrabajosPracticos/Tidyverse3/TP-tidy.nb.html
+        href: ./TrabajosPracticos/Tidyverse3/TP-tidy.html
         
 output_dir: "docs"
