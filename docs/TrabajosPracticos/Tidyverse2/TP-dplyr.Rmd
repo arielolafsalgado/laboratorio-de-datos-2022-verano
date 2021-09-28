@@ -62,7 +62,7 @@ Del dataset `penguins` quedarse con todas las variables excepto `year`, `sex` y
 
 ##### 4
 Crear un subconjunto de los datos de `penguins` sólo con las obsevaciones de 
-pinguinos machos con picos de más de 200 mm de largo y quedarse con todas las
+pinguinos machos con aletas de más de 200 mm de largo y quedarse con todas las
 columnas que terminan con "mm". (usar la función `ends_with()`).
 
 ##### 5
@@ -76,24 +76,13 @@ Mover todas las variables `factor` después de las columnas `integer`.
 Se puede usar `relocate()` junto con `is.integer` y `is.factor`.
 
 ##### 7
-Mover todas las variables `factor` después de las columnas `integer`.
-Se puede usar `relocate()` junto con `is.integer` y `is.factor`.
+Convertir todas las variables que empiezan con `bill` a mayúsculas.
+```{r eval=FALSE}
+penguins %>%
+  rename_with(____, starts_with("____"))
+```
 
 ##### 8
-Convertir todas las variables que empiezan con `bill` a mayúsculas.
-```{r eval=FALSE}
-penguins %>%
-  rename_with(____, starts_with("____"))
-```
-
-##### 9
-Convertir todas las variables que empiezan con `bill` a mayúsculas.
-```{r eval=FALSE}
-penguins %>%
-  rename_with(____, starts_with("____"))
-```
-
-##### 10
 Empezando con `penguins` hacer lo siguiente con un único llamado a la función
 `mutate()`:
 
@@ -101,12 +90,12 @@ Empezando con `penguins` hacer lo siguiente con un único llamado a la función
 * Crear una nueva variable que tenga el peso en Kg.
 * Convertir la variable `island` a minúscula.
 
-##### 11
+##### 9
 Empezando con `penguins` crear una tabla resumen que contenga para el 
 largo mínimo y máximo de las aletas de los pinguinos chinstrap, agrupados
 por isla. 
 
-##### 12
+##### 10
 Empezando con `penguins`, agrupar los datos por especie y año, luego crear una tabla 
 de resumen que contenga el ancho del pico (llamarla `bill_depth_mean`) y el largo 
 del pico (llamarla `bill_length_mean`) para cada grupo
@@ -121,7 +110,7 @@ penguins %>%
 ```
 
 
-##### 13
+##### 11
 Empezando con `penguins`, hacer una secuencia de operaciones ` %>%` que:
 
 * Agregue una nueva columna llamada `bill_ratio` que sea el cociente entre el largo y el 
@@ -140,7 +129,7 @@ penguins %>%
 ```
 
 
-##### 14
+##### 12
 Empezando con `penguins`, agrupar los datos por isla y después usar `across()` para encontrar
 la mediana de los grupos para todas las columnas que contengan el string "mm". El nombre 
 de las variables tiene que ser el nombre original seguido de un guión bajo y la palabra 
@@ -156,7 +145,7 @@ penguins %>%
 ```
 
 
-##### 15
+##### 13
 Empezando con `penguins`, quedarse con las observaciones correspondientes a los pinguinos
 Adelie y luego usar `across()` para encontrar el valor máximo de todas las variables 
 numéricas para cada isla.
@@ -168,7 +157,7 @@ penguins %>%
 ```
 
 
-##### 16
+##### 14
 Empezando con `penguins`, escribir una secuencia de operaciones ` %>% ` que:
 
 * Excluya a los pinguinos observados en la isla Biscoe.
@@ -189,21 +178,21 @@ penguins %>%
 ```
 
 
-##### 17
+##### 15
 Empezando con `penguins`, contar cuántas observaciones hay por especie, isla y año.
 
-##### 18
+##### 16
 Empezando con `penguins`, quedarse sólo con los pinguinos Adelie y gentoo penguins. Luego
 contar cuántos hay por cada especie y sexo.
 
-##### 19
+##### 17
 Agregar una nueva columna a la base de datos llamada `campaña` que contenga:
 
 * “c1” si el año 2007
 * “c2” si el año 2008
 * “c3” si el año 2009
 
-##### 20
+##### 18
 Empezando con `penguins` quedarse sólo con las observaciones correspondientes a pinguinos
 chinstrap. Luego, quedarse sólo con las variables `flipper_length_mm` y `body_mass_g`. 
 Agregar una nueva columna llamada `fm_ratio` que contenga el cociente entre el largo de la 

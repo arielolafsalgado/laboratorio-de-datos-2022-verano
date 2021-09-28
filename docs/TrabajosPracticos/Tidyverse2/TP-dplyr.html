@@ -186,8 +186,8 @@ pre code {
 <ul>
 <li><code>filter()</code>: quedarse con las filas que satisfacen ciertas condiciones.</li>
 <li><code>select()</code>: quedarse o excluir algunas columnas del dataset.</li>
-<li><code>relocate</code>()`: renombrar columnas.</li>
-<li><code>rename</code>()`: mover columnas de lugar.</li>
+<li><code>relocate</code>()`: mover columnas de lugar.</li>
+<li><code>rename</code>()`: renombrar columnas.</li>
 <li><code>mutate()</code>: crear una nueva variable (columna) operando con las demás.</li>
 <li><code>group_by()</code> + <code>summarize()</code>: obtener medidas resumen de los datos por grupos.</li>
 <li><code>across()</code>: aplicar una función a varias columnas.</li>
@@ -211,7 +211,7 @@ require(dplyr)</code></pre>
 </div>
 <div id="section-3" class="section level5">
 <h5>4</h5>
-<p>Crear un subconjunto de los datos de <code>penguins</code> sólo con las obsevaciones de pinguinos machos con picos de más de 200 mm de largo y quedarse con todas las columnas que terminan con “mm”. (usar la función <code>ends_with()</code>).</p>
+<p>Crear un subconjunto de los datos de <code>penguins</code> sólo con las obsevaciones de pinguinos machos con aletas de más de 200 mm de largo y quedarse con todas las columnas que terminan con “mm”. (usar la función <code>ends_with()</code>).</p>
 </div>
 <div id="section-4" class="section level5">
 <h5>5</h5>
@@ -227,22 +227,12 @@ require(dplyr)</code></pre>
 </div>
 <div id="section-6" class="section level5">
 <h5>7</h5>
-<p>Mover todas las variables <code>factor</code> después de las columnas <code>integer</code>. Se puede usar <code>relocate()</code> junto con <code>is.integer</code> y <code>is.factor</code>.</p>
+<p>Convertir todas las variables que empiezan con <code>bill</code> a mayúsculas.</p>
+<pre class="r"><code>penguins %&gt;%
+  rename_with(____, starts_with(&quot;____&quot;))</code></pre>
 </div>
 <div id="section-7" class="section level5">
 <h5>8</h5>
-<p>Convertir todas las variables que empiezan con <code>bill</code> a mayúsculas.</p>
-<pre class="r"><code>penguins %&gt;%
-  rename_with(____, starts_with(&quot;____&quot;))</code></pre>
-</div>
-<div id="section-8" class="section level5">
-<h5>9</h5>
-<p>Convertir todas las variables que empiezan con <code>bill</code> a mayúsculas.</p>
-<pre class="r"><code>penguins %&gt;%
-  rename_with(____, starts_with(&quot;____&quot;))</code></pre>
-</div>
-<div id="section-9" class="section level5">
-<h5>10</h5>
 <p>Empezando con <code>penguins</code> hacer lo siguiente con un único llamado a la función <code>mutate()</code>:</p>
 <ul>
 <li>Convertir la variable <code>species</code> a <code>character</code>.</li>
@@ -250,12 +240,12 @@ require(dplyr)</code></pre>
 <li>Convertir la variable <code>island</code> a minúscula.</li>
 </ul>
 </div>
-<div id="section-10" class="section level5">
-<h5>11</h5>
+<div id="section-8" class="section level5">
+<h5>9</h5>
 <p>Empezando con <code>penguins</code> crear una tabla resumen que contenga para el largo mínimo y máximo de las aletas de los pinguinos chinstrap, agrupados por isla.</p>
 </div>
-<div id="section-11" class="section level5">
-<h5>12</h5>
+<div id="section-9" class="section level5">
+<h5>10</h5>
 <p>Empezando con <code>penguins</code>, agrupar los datos por especie y año, luego crear una tabla de resumen que contenga el ancho del pico (llamarla <code>bill_depth_mean</code>) y el largo del pico (llamarla <code>bill_length_mean</code>) para cada grupo</p>
 <pre class="r"><code>penguins %&gt;%
   group_by(_____, _____) %&gt;%
@@ -264,8 +254,8 @@ require(dplyr)</code></pre>
     _________ = mean(______, na.rm = TRUE)
   )</code></pre>
 </div>
-<div id="section-12" class="section level5">
-<h5>13</h5>
+<div id="section-10" class="section level5">
+<h5>11</h5>
 <p>Empezando con <code>penguins</code>, hacer una secuencia de operaciones <code>%&gt;%</code> que:</p>
 <ul>
 <li>Agregue una nueva columna llamada <code>bill_ratio</code> que sea el cociente entre el largo y el ancho del pico.</li>
@@ -279,8 +269,8 @@ require(dplyr)</code></pre>
   group_by(______) %&gt;%
   summarize(______ = mean(______, na.rm = TRUE))</code></pre>
 </div>
-<div id="section-13" class="section level5">
-<h5>14</h5>
+<div id="section-11" class="section level5">
+<h5>12</h5>
 <p>Empezando con <code>penguins</code>, agrupar los datos por isla y después usar <code>across()</code> para encontrar la mediana de los grupos para todas las columnas que contengan el string “mm”. El nombre de las variables tiene que ser el nombre original seguido de un guión bajo y la palabra “median” (o sea, <code>nombredelacolumna_median</code>)</p>
 <pre class="r"><code>penguins %&gt;%
   group_by(______) %&gt;%
@@ -290,16 +280,16 @@ require(dplyr)</code></pre>
                    .names = &quot;_______&quot;)
             )</code></pre>
 </div>
-<div id="section-14" class="section level5">
-<h5>15</h5>
+<div id="section-12" class="section level5">
+<h5>13</h5>
 <p>Empezando con <code>penguins</code>, quedarse con las observaciones correspondientes a los pinguinos Adelie y luego usar <code>across()</code> para encontrar el valor máximo de todas las variables numéricas para cada isla.</p>
 <pre class="r"><code>penguins %&gt;%
   filter(species == &quot;______&quot;) %&gt;%
   group_by(______) %&gt;%
   summarize(across(where(_____), _____, na.rm = TRUE))</code></pre>
 </div>
-<div id="section-15" class="section level5">
-<h5>16</h5>
+<div id="section-13" class="section level5">
+<h5>14</h5>
 <p>Empezando con <code>penguins</code>, escribir una secuencia de operaciones <code>%&gt;%</code> que:</p>
 <ul>
 <li>Excluya a los pinguinos observados en la isla Biscoe.</li>
@@ -315,16 +305,16 @@ require(dplyr)</code></pre>
   group_by(_____) %&gt;%
   summarize(across(contains(&quot;_____&quot;), mean, na.rm = TRUE, .names = &quot;{.col}_avg&quot;))</code></pre>
 </div>
-<div id="section-16" class="section level5">
-<h5>17</h5>
+<div id="section-14" class="section level5">
+<h5>15</h5>
 <p>Empezando con <code>penguins</code>, contar cuántas observaciones hay por especie, isla y año.</p>
 </div>
-<div id="section-17" class="section level5">
-<h5>18</h5>
+<div id="section-15" class="section level5">
+<h5>16</h5>
 <p>Empezando con <code>penguins</code>, quedarse sólo con los pinguinos Adelie y gentoo penguins. Luego contar cuántos hay por cada especie y sexo.</p>
 </div>
-<div id="section-18" class="section level5">
-<h5>19</h5>
+<div id="section-16" class="section level5">
+<h5>17</h5>
 <p>Agregar una nueva columna a la base de datos llamada <code>campaña</code> que contenga:</p>
 <ul>
 <li>“c1” si el año 2007</li>
@@ -332,8 +322,8 @@ require(dplyr)</code></pre>
 <li>“c3” si el año 2009</li>
 </ul>
 </div>
-<div id="section-19" class="section level5">
-<h5>20</h5>
+<div id="section-17" class="section level5">
+<h5>18</h5>
 <p>Empezando con <code>penguins</code> quedarse sólo con las observaciones correspondientes a pinguinos chinstrap. Luego, quedarse sólo con las variables <code>flipper_length_mm</code> y <code>body_mass_g</code>. Agregar una nueva columna llamada <code>fm_ratio</code> que contenga el cociente entre el largo de la aleta y el peso del pinguino. Luego agregar otra columna llamada <code>ratio_bin</code> que contenga la palabra “alto” si <code>fm_ratio</code> es mayor o igual que 0.05, “bajo” si el cociente es menor que 0.05 y “no hay registro” en cualquier otro caso (como por ejemplo si el cociente es un NA)</p>
 <pre class="r"><code>penguins %&gt;%
   filter(species == &quot;_____&quot;) %&gt;%
