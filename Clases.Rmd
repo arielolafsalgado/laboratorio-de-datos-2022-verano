@@ -77,3 +77,9 @@ output: html_document
 * Ejercicios de visualización de datos, [parte 1](./TrabajosPracticos/Visualizacion1/TP4-Visualizacion.nb.html)
 
 
+#### 28/9 
+
+* Transformando datos con dplyr. [video](https://youtu.be/7kthnDAo9Vg) | [Slides](https://docs.google.com/presentation/d/1301HTmQV5mb11dXVyoo5KeRdu-HtuMOx88MtKN5zedI/edit?usp=sharing)
+* Ejercicios de transformación de datos con dplyr. [TP](./TrabajosPracticos/Tidyverse2/TP-dplyr.nb.html)
+* Ejercicios de transformación y visualización con tidyverse. [TP](./TrabajosPracticos/Tidyverse3/TP-tidy.nb.html)
+

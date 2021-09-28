@@ -37,5 +37,9 @@ navbar:
         href: ./TrabajosPracticos/Properarti_EstadisticaDescriptiva/properati_ejercicios.nb.html
       - text: "TP-3"
         href: ./TrabajosPracticos/Visualizacion1/TP4-Visualizacion.nb.html
+      - text: "TP-4"
+        href: ./TrabajosPracticos/Tidyverse2/TP-dplyr.nb.html
+      - text: "TP-5"
+        href: ./TrabajosPracticos/Tidyverse3/TP-tidy.nb.html
         
 output_dir: "docs"
