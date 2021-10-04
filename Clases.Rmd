@@ -89,3 +89,8 @@ output: html_document
 
 * Puesta en común de los TP de tidyverse. [Video](https://youtu.be/cYe5YM-f2T8)
 * Qué hace un cientíico de datos? [Video](https://youtu.be/cYe5YM-f2T8?t=2150)
+
+
+#### 5/10 
+
+* Un pequeño vistazo a grafos [Notebook](./NotebooksTeoricas/Grafos/notebook_grafos.nb.html) | [Video](https://youtube.com/playlist?list=PLq-WhOVzhK9zNcO-QaOWWY18c-e_QVuwq)
