@@ -94,3 +94,5 @@ output: html_document
 #### 5/10 
 
 * Un pequeño vistazo a grafos [Notebook](./NotebooksTeoricas/Grafos/notebook_grafos.nb.html) | [Video](https://youtube.com/playlist?list=PLq-WhOVzhK9zNcO-QaOWWY18c-e_QVuwq)
+* Resolución Ej 2 del [TP-3](./TrabajosPracticos/Visualizacion1/TP4-Visualizacion.nb.html) + discusión sobre
+la paradoja de Simpson: [Video](https://youtu.be/3ygLXop_Nqc)
