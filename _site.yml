@@ -23,6 +23,8 @@ navbar:
         href: ./NotebooksTeoricas/No_Estructurados_APIs/notebook_NS_apis.nb.html
       - text: "NB-Grafos"
         href: ./NotebooksTeoricas/Grafos/notebook_grafos.nb.html
+      - text: "NB-Espacial-Properati-Elegante"
+        href: ./NotebooksTeoricas/Espacial_Properati_v2/EDA_Properati_v2.html
         
     - text: "Notebooks TP"
       icon: fa-laptop
