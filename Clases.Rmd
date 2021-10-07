@@ -101,4 +101,5 @@ la paradoja de Simpson: [Video](https://youtu.be/3ygLXop_Nqc)
 
 #### 7/10 
 
+* [Comentarios sobre grafos](https://youtu.be/hDJGNjWC3Iw)
 * Analisis exploratorio de los precios por metro cuadrdo de departamentos en CABA, con la base de Properati VERSION ELEGANTE: [Notebook](./NotebooksTeoricas/Espacial_Properati_v2/EDA_Properati_v2.html) | [Video-parte1](https://youtu.be/QPnWb5IUZIs) | [Video-parte2](https://youtu.be/n4LlZoWcrbE) | [Video-parte3](https://youtu.be/s2FaiaH9h30)
