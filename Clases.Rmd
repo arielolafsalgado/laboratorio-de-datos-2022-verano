@@ -103,3 +103,18 @@ la paradoja de Simpson: [Video](https://youtu.be/3ygLXop_Nqc)
 
 * [Comentarios sobre grafos](https://youtu.be/hDJGNjWC3Iw)
 * Analisis exploratorio de los precios por metro cuadrdo de departamentos en CABA, con la base de Properati VERSION ELEGANTE: [Notebook](./NotebooksTeoricas/Espacial_Properati_v2/EDA_Properati_v2.html) | [Video-parte1](https://youtu.be/QPnWb5IUZIs) | [Video-parte2](https://youtu.be/n4LlZoWcrbE) | [Video-parte3](https://youtu.be/s2FaiaH9h30)
+
+
+#### 12/10 
+
+* Manejo de textos: [Notebook](./NotebooksTeoricas/Textos/manejo_textos.html)
+
+
+* Material adicional: otra forma de ver los datos espaciales de Properati 
+(VERSIÓN ELEGANTE 2): [Notebook](./NotebooksTeoricas/Espacial_Properati_v2/EDA_Properati_v3.html) | [Video-parte1](https://youtu.be/t30wAtJAeRc) | [Video-parte2](https://youtu.be/A4zOvXpZOeo) | [Video-parte3](https://youtu.be/SVwW6DfpWLc)
+
+
+
+
+
+
