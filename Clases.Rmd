@@ -111,7 +111,7 @@ la paradoja de Simpson: [Video](https://youtu.be/3ygLXop_Nqc)
 
 
 * Material adicional: otra forma de ver los datos espaciales de Properati 
-(VERSIÓN ELEGANTE 2): [Notebook](./NotebooksTeoricas/Espacial_Properati_v2/EDA_Properati_v3.html) | [Video-parte1](https://youtu.be/t30wAtJAeRc) | [Video-parte2](https://youtu.be/A4zOvXpZOeo) | [Video-parte3](https://youtu.be/SVwW6DfpWLc)
+(VERSIÓN ELEGANTE 2): [Notebook](./NotebooksTeoricas/Espacial_Properati_v3/EDA_Properati_v3.html) | [Video-parte1](https://youtu.be/t30wAtJAeRc) | [Video-parte2](https://youtu.be/A4zOvXpZOeo) | [Video-parte3](https://youtu.be/SVwW6DfpWLc)
 
 
 
