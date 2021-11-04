@@ -29,6 +29,8 @@ navbar:
         href: ./NotebooksTeoricas/Espacial_Properati_v3/EDA_Properati_v3.html
       - text: "NB-Manejo-de-textos"
         href: ./NotebooksTeoricas/Textos/manejo_textos.html
+      - text: "NB-Modelado"
+        href: ./NotebooksTeoricas/Modelado/Modelado_de_Precios_5.nb.html
         
         
         

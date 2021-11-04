@@ -109,12 +109,20 @@ la paradoja de Simpson: [Video](https://youtu.be/3ygLXop_Nqc)
 
 * Manejo de textos: [Notebook](./NotebooksTeoricas/Textos/manejo_textos.html)
 
-
 * Material adicional: otra forma de ver los datos espaciales de Properati 
 (VERSIÓN ELEGANTE 2): [Notebook](./NotebooksTeoricas/Espacial_Properati_v3/EDA_Properati_v3.html) | [Video-parte1](https://youtu.be/t30wAtJAeRc) | [Video-parte2](https://youtu.be/A4zOvXpZOeo) | [Video-parte3](https://youtu.be/SVwW6DfpWLc)
 
+#### 14/10 al 2/11
 
+* Trabajo Práctico. [enunciado]()
 
+* Charlas invitadas de científicos de datos.
 
+#### 4/11
+
+* Modelado de datos:
+- [Videos](https://youtube.com/playlist?list=PLN2e9R_DoC0THQgbage3DkS_7tCsqTd-3)
+- Notebook: [html](./NotebooksTeoricas/Modelado/Modelado_de_Precios_5.nb.html) | [Rmd](./NotebooksTeoricas/Modelado/Modelado_de_Precios_5.Rmd)
+- [TP](./NotebooksTeoricas/Modelado/TP_Modelado_de_Datos.pdf)
 
 
