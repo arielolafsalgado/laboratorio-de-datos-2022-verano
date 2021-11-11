@@ -118,12 +118,16 @@ la paradoja de Simpson: [Video](https://youtu.be/3ygLXop_Nqc)
 
 * Charlas invitadas de científicos de datos.
 
-#### 4/11
+#### 4/11 al 6/11
 
 * Modelado de datos:
 - [Videos](https://youtube.com/playlist?list=PLN2e9R_DoC0THQgbage3DkS_7tCsqTd-3)
 - [Apunte](./NotebooksTeoricas/Modelado/Modelado_con_Regresion_Lineal_Multiple_Final.pdf)
 - Notebook: [html](./NotebooksTeoricas/Modelado/Modelado_de_Precios_5.nb.html) | [Rmd](./NotebooksTeoricas/Modelado/Modelado_de_Precios_5.Rmd)
 - [TP](./NotebooksTeoricas/Modelado/TP_Modelado_de_Datos.pdf)
+
+#### 11/11
+
+- [TP modelado de datos - parte 2](./TrabajosPracticos/Modelado/TP-modelos-parte2.html)
 
 

@@ -53,5 +53,7 @@ navbar:
         href: ./TrabajosPracticos/Tidyverse2/TP-dplyr.html
       - text: "TP-5"
         href: ./TrabajosPracticos/Tidyverse3/TP-tidy.html
+      - text: "TP-6"
+        href: ./TrabajosPracticos/Modelado/TP-modelos-parte2.html
         
 output_dir: "docs"
