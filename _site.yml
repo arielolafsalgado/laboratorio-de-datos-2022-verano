@@ -1,4 +1,4 @@
-name: "Laboratorio de datos 2021 - 2do cuat"
+name: "Laboratorio de datos 2022 - Verano"
 include: ["./TrabajosPracticos/Temperaturas/historico_temperaturas.csv",
           "./NotebooksTeoricas/Estadistica_Descriptiva/ar_properties.csv",
           "./TrabajosPracticos/Temperaturas/temperatura_ejercicio_resuelto.html",

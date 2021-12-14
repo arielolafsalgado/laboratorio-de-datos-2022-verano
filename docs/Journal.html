@@ -13,7 +13,6 @@
 
 <title>Journal</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -28,15 +27,6 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -82,7 +72,6 @@ h6 {
   text-align: left;
 }
 </style>
-
 
 
 
@@ -371,7 +360,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-laptop"></span>
+    <span class="fa fa-laptop"></span>
      
     Notebooks Teo
      
@@ -406,7 +395,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-laptop"></span>
+    <span class="fa fa-laptop"></span>
      
     Notebooks TP
      
@@ -463,7 +452,7 @@ div.tocify {
 <p>This is an .Rmd file. It is plain text with special features. Any time you write just like this, it will be compiled to normal text in the website. If you put a # in front of your text, it will create a top level-header.</p>
 <div id="my-first-post" class="section level1">
 <h1>My first post</h1>
-<p>2018 | 7 | 23 Last compiled: 2021-11-15</p>
+<p>2018 | 7 | 23 Last compiled: 2021-12-14</p>
 <p>Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left.</p>
 <div id="second-level-header" class="section level2">
 <h2>Second level header</h2>
@@ -476,7 +465,7 @@ div.tocify {
 </div>
 <div id="my-second-post-note-the-order" class="section level1">
 <h1>My second post (note the order)</h1>
-<p>2018 | 7 | 23 Last compiled: 2021-11-15</p>
+<p>2018 | 7 | 23 Last compiled: 2021-12-14</p>
 <p>I’m writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom</p>
 </div>
 <div id="adding-r-stuff" class="section level1">
@@ -584,7 +573,7 @@ print(a)</code></pre>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
