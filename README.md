@@ -1,4 +1,4 @@
-# Laboratorio de datos 2021 - 2do cuatrimestre
+# Laboratorio de datos 2022 - Verano
 
 
 [Licenciatura en Ciencia de Datos](https://https://lcd.exactas.uba.ar/)
@@ -8,15 +8,16 @@
 
 ## Días y horarios
 
-Martes y Jueves de 9 a 12 a partir del 17 de Agosto.
+Martes, Jueves y Viernes de 9 a 13 a partir del 1ro de Febrero.
 
 ## Docentes
 
 - Andrés Farall 
-- Guillermo Solovey
-- Martín Elías Costa
+- Matías Lopez
+- Manuela Cerdeiro
 - Ariel Salgado
-- Matías Iglesias
 
 Basado en el template:
 [https://crumplab.github.io/LabJournalWebsite/index.html](https://crumplab.github.io/LabJournalWebsite/index.html)
+
+y el repositorio original[https://github.com/guillermosolovey/laboratoriodedatos2021-2C]
