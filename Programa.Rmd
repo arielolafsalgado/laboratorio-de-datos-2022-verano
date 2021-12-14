@@ -7,9 +7,9 @@ output: html_document
 ### Objetivos
 1. Brindar una introducción al Análisis Exploratorio de Datos (EDA) y al Modelado de Datos, utilizando elementos básicos de matemáticas y de programación, sin el uso de nociones de Probabilidad y Estadística. 
 
-2. Generar una serie de preguntas que pueden hacerse sobbre un conjunto de datos, que finalmente serán respondidas mediante modelos estadísticos o algoritmos del machine learning.
+2. Entrenar la habilidad para generar preguntas sobre conjuntos de datos, a ser respondidas mediante modelos estadísticos o algoritmos del machine learning.
 
-3. Introducir algunos conceptos fundamentales de la Ciencia de Datos, como ser: Descripción-Predicción-Excplicación, significatividad estadística, sobreajuste, bondad de ajuste, funciones de pérdida, asoociación entre variables, análisis supervisado vs. no supervisado, modelos paramétricos vs. no paramétricos, etc.
+3. Introducir conceptos fundamentales de la Ciencia de Datos, como ser: Descripción-Predicción-Explicación, significatividad estadística, sobreajuste, bondad de ajuste, funciones de pérdida, asoociación entre variables, análisis supervisado vs. no supervisado, modelos paramétricos vs. no paramétricos, etc.
 
 ### Contenidos
 1. Obtención y organización de datos. Datos estructurados y no estructurados.
@@ -27,4 +27,5 @@ transform, visualize, and model data. O'Reilly Media, Inc. [En español](https:/
 * Antonio Vazquez Brust, (2020) Ciencia de Datos para Gente Sociable -  [Libro Completo](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/)
 
 * Healy, K. (2018). Data visualization: a practical introduction. Princeton University Press. El libro completo [disponible online](https://socviz.co/). [Material suplementario](https://github.com/kjhealy/socviz) 
+
 

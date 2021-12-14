@@ -1,5 +1,5 @@
 ---
-title: "Laboratorio de Datos 2021 - 2do cuatrimestre"
+title: "Laboratorio de Datos 2022 - Verano"
 output: html_document
 ---
 
@@ -20,20 +20,25 @@ output: html_document
 Esta es la página de la materia "Laboratorio de Datos" de la
 [Licenciatura en Ciencia de Datos](https://https://lcd.exactas.uba.ar/) de la 
 [Facultad de Ciencias Exactas y Naturales](https://https://lcd.exactas.uba.ar/) 
-que se dicta durante el 2do. cuatrimestre de 2021.
+que se dicta durante el Verano de 2022.
 
 
 ### Días y horarios
 
-Martes y Jueves de 9 a 12.
+Martes, Jueves y Viernes de 9 a 13. Las clases serán en modalidad presencial.
+
+### Correlatividades
+
+Quienes cursen esta materia como parte de la Licenciatura en Ciencia de Datos deben tener los trabajos prácticos de la materia Algoritmos 1 aprobados (para aprobar los trabajos prácticos) y el final de Algoritmos 1 aprobado (para cerrar la materia). 
+
+Quienes cursen esta materia como optativa necesitan tener conceptos de programación básicos, así como conocimientos de análisis matemático y álgebra lineal elemental.
 
 ### Docentes
 
 - Andrés Farall 
-- Guillermo Solovey
-- Martín Elías Costa
+- Matías Lopez
+- Manuela Cerdeiro
 - Ariel Salgado
-- Matías Iglesias
 
 <!-- </div> -->
 <!-- <div class="col-sm-6"> -->
