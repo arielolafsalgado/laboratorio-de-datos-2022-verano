@@ -26,4 +26,4 @@ Quienes cursen esta materia como optativa necesitan tener conceptos de programac
 Basado en el template:
 [https://crumplab.github.io/LabJournalWebsite/index.html](https://crumplab.github.io/LabJournalWebsite/index.html)
 
-y el repositorio original: [https://github.com/guillermosolovey/laboratoriodedatos2021-2C]
+y el repositorio original: https://github.com/guillermosolovey/laboratoriodedatos2021-2C
